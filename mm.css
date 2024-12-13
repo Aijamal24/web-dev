@@ -402,10 +402,8 @@ body {
   background-color: #f4f4f4;
 }
 
-.bady {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
+
+
 .product-carousel {
   display: flex;
   overflow-x: auto;
