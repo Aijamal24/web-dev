@@ -1,4 +1,4 @@
-/* Общие стили */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -22,7 +22,7 @@ body {
     
   }
   
-  /* Header */
+
   .header {
     background-color: #111;
     color: white;
@@ -60,7 +60,7 @@ body {
     position: relative;
   }
 
-  /* Стили для строки поиска */
+
 .search-bar {
   display: flex;
   align-items: center;
@@ -105,7 +105,7 @@ body {
     border-radius: 50%;
   }
   
-  /* Product Sections */
+
   .category {
     padding: 2rem 1rem;
     text-align: center;
@@ -144,7 +144,7 @@ body {
     font-size: 1.2rem;
   }
   
-  /* Product Details */
+
   .product-details {
     position: fixed;
     top: 0;
@@ -185,7 +185,7 @@ body {
     background-color: #d32f2f;
   }
   
-  /* Cart Modal */
+
   .cart-modal {
     position: fixed;
     top: 0;
@@ -232,7 +232,7 @@ body {
   }
 
   #clearCartButton {
-    background-color: #e6a739; /* Ярко-красный цвет */
+    background-color: #e6a739; 
     border: none;
     color: white;
     padding: 10px 20px;
@@ -244,16 +244,16 @@ body {
   }
   
   #clearCartButton:hover {
-    background-color: #d68528; /* Более тёмный оттенок красного при наведении */
-    transform: scale(1.05); /* Лёгкое увеличение кнопки */
+    background-color: #d68528; 
+    transform: scale(1.05);
   }
   
   #clearCartButton:active {
-    transform: scale(0.95); /* Уменьшение при нажатии */
+    transform: scale(0.95); 
   }
   
 
-  /* Footer Styles */
+  
 .footer {
   background-color: #2a2a2a;
   color: #ecf0f1;
