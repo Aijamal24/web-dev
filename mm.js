@@ -234,7 +234,7 @@ const products = {
     },
     bag22: {
       name: "Сумка через плечо",
-      images: ["img/bag/karlbagblm1.jpg", "img/bag/karlbagblm2.jpg", "img/bag/karlbagblm3.jpg", ],
+      images: ["img/bag/karlbagbl1.jpg", "img/bag/karlbagbl2.jpg", "img/bag/karlbagbl3.jpg", ],
       description: "Элегантная сумка для стильных женщин, удобно носить на плечах.",
       price: "$60.00"
     },
