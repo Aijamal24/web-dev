@@ -1,4 +1,4 @@
-// Функция для обработки поиска
+
 document.getElementById('search-btn').addEventListener('click', performSearch);
 document.getElementById('search-input').addEventListener('keyup', function(event) {
   if (event.key === 'Enter') performSearch();
@@ -13,10 +13,10 @@ function performSearch() {
   products.forEach(product => {
     const productName = product.querySelector('h3').innerText.toLowerCase();
     if (productName.includes(searchTerm)) {
-      product.style.display = 'block'; // Показываем подходящий товар
+      product.style.display = 'block'; 
       found = true;
     } else {
-      product.style.display = 'none'; // Скрываем товар, если он не подходит
+      product.style.display = 'none';
     }
   });
 
@@ -25,15 +25,15 @@ function performSearch() {
   }
 }
 
-// Функция для очистки корзины
+
 function clearCart() {
-  cart = []; // Очищаем массив корзины
-  localStorage.setItem("cart", JSON.stringify(cart)); // Сохраняем пустую корзину в localStorage
-  updateCart(); // Обновляем отображение корзины
+  cart = []; 
+  localStorage.setItem("cart", JSON.stringify(cart)); 
+  updateCart(); 
   alert("Корзина очищена!");
 }
 
-// Привязываем обработчик к кнопке
+
 document.getElementById("clearCartButton").addEventListener("click", clearCart);
 
 
