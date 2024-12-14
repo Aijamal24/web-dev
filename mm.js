@@ -499,5 +499,15 @@ const products = {
   
   updateCart();
 
-  
+  const leftArrow = document.querySelector('.left-arrow');
+    const rightArrow = document.querySelector('.right-arrow');
+    const carousel = document.querySelector('.product-carousel');
+
+    leftArrow.addEventListener('click', () => {
+        carousel.scrollBy({ left: -300, behavior: 'smooth' });
+    });
+
+    rightArrow.addEventListener('click', () => {
+        carousel.scrollBy({ left: 300, behavior: 'smooth' });
+    });
   
