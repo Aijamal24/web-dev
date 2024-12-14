@@ -30,6 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+      
   }
   
   .header .logo a {
@@ -330,13 +331,7 @@ body {
 
 
 }
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  border-bottom: 1px solid #ddd;
-}
+
 .header img {
   height: 40px;
 }
